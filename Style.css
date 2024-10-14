@@ -1,0 +1,42 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    
+}
+.navbar{
+    display: flex;
+    
+
+}
+.navbar ul{
+    width: 80%;
+    
+    list-style: none;
+    background-color: cadetblue;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color:#ffb374;
+}
+.navbar li{
+    float: left;
+  
+}
+#icon-set{
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+footer{
+    margin-top: 80px;
+}
